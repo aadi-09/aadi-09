@@ -108,6 +108,14 @@ header {
   margin-bottom: 10px;
 }
 
+.user-message {
+  text-align: right;
+} 
+
+.bot-message {
+  text-align: left;
+} 
+
 footer {
   text-align: center;
   background-color: rgba(75, 85, 99, 0.6);
