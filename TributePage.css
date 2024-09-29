@@ -110,11 +110,11 @@ header {
 
 .user-message {
   text-align: right;
-} 
+}
 
-.bot-message {
+.user-message {
   text-align: left;
-} 
+}
 
 footer {
   text-align: center;
