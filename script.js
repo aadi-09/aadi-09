@@ -18,6 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+const readMore = document.getElementById('Read-More');
+  readMore.addEventListener('click', function () {
+    alert('You are about to leave the page to read more about Carl Sagan.');
+  });
+});
+
 const chatBox = document.getElementById('chat-box');
 const userInput = document.getElementById('user-input');
 
