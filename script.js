@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
   tributeLink.addEventListener('click', function () {
     alert('You are about to leave the page to learn more about Carl Sagan.');
   });
-});
 
 const readMore = document.getElementById('Read-More');
   readMore.addEventListener('click', function () {
