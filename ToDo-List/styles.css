@@ -1,4 +1,4 @@
-    /* General Reset */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -94,6 +94,13 @@ body {
     padding: 5px 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item button i {
+    font-size: 16px;
 }
 
 .list-item button:hover {
