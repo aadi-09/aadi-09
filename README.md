@@ -26,7 +26,7 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Git" style="width: 30px; height: 30px; display: inline-block; border-radius: 50%; overflow: hidden;">
   </a>
   <a href="https://www.visualstudio.com/" target="_blank" class="icon" onclick="alert('Opening Visual Studio website.');">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/VisualStudio_2019_logo.svg" alt="Visual Studio" style="width: 30px; height: 30px; display: inline-block; border-radius: 50%; overflow: hidden;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Visual_Studio_Icon_2019.svg" alt="Visual Studio" style="width: 30px; height: 30px; display: inline-block; border-radius: 50%; overflow: hidden;">
   </a>
 </div>
 
