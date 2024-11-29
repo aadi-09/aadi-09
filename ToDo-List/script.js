@@ -1,4 +1,4 @@
-      // Get elements
+// Get elements
 const inputField = document.getElementById('todo-input');
 const addButton = document.getElementById('add-btn');
 const todoList = document.getElementById('todo-list');
@@ -22,9 +22,9 @@ function addTask(taskText) {
     const taskParagraph = document.createElement('p');
     taskParagraph.textContent = taskText;
 
-    // Create delete button
+    // Create delete button with trash icon
     const deleteButton = document.createElement('button');
-    deleteButton.textContent = 'Delete';
+    deleteButton.innerHTML = '<i class="fas fa-trash"></i>';
 
     // Add delete functionality
     deleteButton.addEventListener('click', () => {
@@ -37,4 +37,4 @@ function addTask(taskText) {
 
     // Append task container to the list
     todoList.appendChild(taskContainer);
-                           }
+}
