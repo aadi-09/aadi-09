@@ -1,9 +1,6 @@
 ## Hi there I'm **Aaditya Dubey**👋
-## This Repository contains a Tribute Page to Showcase my skills in web development and designes as well as honoring one of the great scientist, american astronomer and science communicator **Dr Carl Edward Sagan**.
+## This Repository contains Projects to Showcase my skills in web development, responsive web design, and frontend development. 
 
 ## 📫 How to reach me:
-
-- 🐦 [X](https://x.com/itsaadi_09?t=utIRWM5OptytYYL9_97bAg&s=09)
-- 🌐 [Blog!](https://therusticreveriehub.blogspot.com)
-- 💬 [LinkedIn](https://www.linkedin.com/in/aaditya-dubey09)
+<div class="social-icons"><a href="https://twitter.com/itsaadi_09" target="_blank" class="icon" onclick="alert('Opening X profile in a new tab.');"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/X_icon.svg" alt="X"></a><a href="https://linkedin.com/in/aadityadubey" target="_blank" class="icon" onclick="alert('Opening LinkedIn profile in a new tab.');"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"></a><a href="https://github.com/aadi-09" target="_blank" class="icon" onclick="alert('Opening GitHub profile in a new tab.');"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"></a><a href="https://therusticreveriehub.blogspot.com" target="_blank" class="icon" onclick="alert('Opening Blogger page in a new tab.');"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/32px-Blogger.svg.png" alt="Blogger"></a><a href="https://deepstash.com" target="_blank" class="icon" onclick="alert('Opening Deepstash profile in a new tab.');"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Deepstash_Logo.png" alt="Deepstash"></a></div>
 - 📬 Email: aadityadubey12591@outlook.com
