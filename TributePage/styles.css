@@ -1,129 +1,122 @@
+/* General Styles */
 body {
-  font-family: 'Roboto', sans-serif; /* Roboto font from Google Fonts */
-  margin: 2%;
-  padding: 2%;
-  cursor: auto;
-}
-
-.background {
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  filter: blur(1px);
-}
-
-h1 {
-  color: #fff;
-  font-size: 3rem;
-  font-family: 'Cursive', sans-serif;
-  text-align: center;
-  margin: 0 0;
-  padding: 5px;
-}
-
-h2 {
-  color: #fff;
-  font-size: 1rem;
-  font-family: 'Georgia', serif;
-  text-align: center;
-  margin: 0 0;
-  padding: 5px;
-} 
-
-p {
-  color: rgba(255, 255, 255, 1);
-  font-family: 'Georgia', serif; /* Georgia font */
-  text-align: left;
-  font-size: 0.7rem;
-}
-
-.container {
-  margin: 10px 10px;
-  background-color: rgba(154, 52, 18, 0.3);
-  position: relative;
-  z-index: 1;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  padding: 20px;
-  border-radius: 9px;
-  box-shadow: 0 0 10px #0000004d;
-}
-
-.Sagan {
-  max-width: 100%;
-}
-
-.Mid_line {
-  background-color: rgb(253, 187, 116);
-  height: 2px;
-  width: 90%;
-  border-top-color: #323232a0;
-  border-bottom-color: #323232a0;
-  border-radius: 50%;
-}
-
-.divider {
-    border: none;
-    border-top: 2px solid #ccc;  /* Adjust thickness and color */
-    width: 50%;                  /* Adjust width as needed */
-    margin: 10px 0;            /* Adds space above and below, centers the line */
-    border-radius: 5px;           /* Rounds the line */
-    text-align: left;
-}
-
-.caption {
-  font-size: 0.4rem;
-  text-align: center;
-  color: #fff;
-  font-family: 'Georgia', serif;
-  margin: o auto;
-  padding: 5px;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://i.pinimg.com/736x/80/43/44/8043444cbf5135bb23b01ace60cb19f8.jpg")
+        no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
 }
 
 header {
-  text-align: center;
-  padding: 10px;
+    text-align: center;
+    padding: 20px;
+    background: rgba(34, 22, 22, 0.8);
 }
 
-#chat-container {
-  margin: 20px auto;
-  width: 60%;
-  max-width: 600px;
-  text-align: center;
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: "cursive", Roboto;
 }
 
-#chat-box {
-  height: 100px;
-  overflow-y: auto;
-  background-color: rgba(154, 52, 18, 0.3);
-  padding: 10px;
-  color: white;
-  border-radius: 9px;
-  margin-bottom: 10px;
+.caption {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0;
 }
 
-.user-message {
-  text-align: right;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(34, 22, 22, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.user-message {
-  text-align: left;
+.Sagan {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
+a {
+    color: #2312c9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4a12c9;
+}
+
+/* Footer Styles */
 footer {
-  text-align: center;
-  background-color: rgba(75, 85, 99, 0.6);
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  position: fixed;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 0.1em;
+    background: rgba(26, 26, 26, 0.5);
+    color: #ddd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote {
+    width: 80%;
+}
+
+.copyright {
+    background-color: rgba(1, 23, 119, 0.159);
+    text-align: left;
+    padding: 10px;
+    font-size: 0.8rem;
+    max-height: 500px;
+    max-width: 800px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:
+        transform 0.3s,
+        filter 0.3s;
+}
+
+.icon:hover img {
+    transform: scale(1.2);
+    filter: grayscale(0%) brightness(1);
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* To ensure the space below the footer paragraph has the same background color */
+footer .copyright p {
+    background-color: rgba(1, 23, 119, 0.159);
+    padding: 10px 0;
 }
