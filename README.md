@@ -24,6 +24,7 @@ I'm a self-taught full-stack developer and a technical team member <a href="http
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=aaditya-dubey09&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF)](https://git.io/streak-stats) ![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aaditya-dubey09&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)
 
+![Hackatime Coding heatmap](https://heatmap.shymike.dev?id=36992&timezone=Asia%2FCalcutta&theme=dark)
 </div>
 
 ## Badges earned from open-source contributions...
